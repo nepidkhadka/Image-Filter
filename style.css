@@ -30,3 +30,37 @@ body{
     background-color: blue;
     color: white;
 }
+
+.images-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.img-card{
+    background: whitesmoke;
+    flex-basis: 300px;
+    border-radius: 0.8rem;
+}
+
+.img-body{
+    padding: 1rem;
+}
+
+.img-body .title{
+    font-size: 1.2rem;
+    margin-block: 0.5rem;
+}
+
+.img-body .desc{
+    font-style: oblique;
+}
+
+.img-card img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 8px 8px 0 0;
+}
