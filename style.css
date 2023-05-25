@@ -33,16 +33,23 @@ body{
 
 .images-cards{
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 2rem;
     gap: 1rem;
 }
 
 .img-card{
+    flex-grow: 1;
+    flex-shrink: 1;
     background: whitesmoke;
     flex-basis: 300px;
     border-radius: 0.8rem;
+}
+
+.img-card.hide{
+  display: none;
 }
 
 .img-body{

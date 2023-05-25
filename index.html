@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" ></script>
     <title>Image Filter</title>
 </head>
 <body>
@@ -13,86 +12,105 @@
     <div class="container">
         <!-- Top Buttons -->
         <div class="filterbtn">
-        <button class="btn active">Show All</button>
-        <button class="btn">Sport Bikes</button>
-        <button class="btn">Dirt Bikes</button>
-        <button class="btn">Adventure</button>
+        <button data-name="all" class="btn active">Show All</button>
+        <button data-name="sbike" class="btn">Sport Bikes</button>
+        <button data-name="dbike" class="btn">Dirt Bikes</button>
+        <button data-name="abike" class="btn">Adventure</button>
         </div>
         
         <!-- Images -->
         <div class="images-cards">
-            <div class="img-card">
+
+            <div class="img-card" data-name="dbike">
                 <img src="Images/dirt1.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Dirt Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card "data-name="dbike">
                 <img src="Images/dirt2.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Dirt Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card "data-name="dbike">
                 <img src="Images/dirt3.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Dirt Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card "data-name="dbike">
                 <img src="Images/dirt4.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Dirt Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card"data-name="dbike">
                 <img src="Images/dirt5.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Dirt Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card" data-name="sbike">
                 <img src="Images/sports1.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Sports Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card" data-name="sbike">
                 <img src="Images/sports2.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Sports Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card" data-name="sbike">
                 <img src="Images/sports3.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Sports Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card" data-name="abike">
                 <img src="Images/adventure1.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Adventure Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card" data-name="abike">
                 <img src="Images/adventure2.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Adventure Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
                 </div>
             </div>
-            <div class="img-card">
+
+            <div class="img-card" data-name="abike">
                 <img src="Images/adventire3.jpg" alt="">
+                <div class="img-body">
+                    <h4 class="title">Adventure Bike</h4>
+                    <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
+                </div>
+            </div>
+
+            <div class="img-card" data-name="abike">
+                <img src="Images/adventure4.jpg" alt="">
                 <div class="img-body">
                     <h4 class="title">Adventure Bike</h4>
                     <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, quasi.</p>
@@ -102,6 +120,7 @@
         </div>
 
     </div>
+    <script src="script.js" ></script>
     
 </body>
 </html>
